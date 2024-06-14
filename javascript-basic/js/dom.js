@@ -20,3 +20,9 @@ console.log(document.querySelector('.list'));
 
 console.log(document.querySelectorAll('.heading'));
 console.log(document.querySelectorAll('li'));
+
+const li = document.createElement('li');
+
+li.textContent = 'Javascriptで新たに作成したリスト3';
+
+document.querySelector('ul').appendChild(li);
