@@ -132,7 +132,7 @@ const timer = () => {
       untypedfield.textContent = 'タイムアップ！';
       setTimeout(() => {
         gameOver(id)
-      },100);
+      },10);
     }
   }, 1000);
 };
